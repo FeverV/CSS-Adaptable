@@ -50,12 +50,13 @@ ul {
   }
   .contenido img{
   box-shadow: 5px 10px 8px 2px #02010a;
-   width: 100%;
+   width: 80%;
+    
   }
 .img_izquierda{
 order: 1;
 flex-grow: 2;
-  width: 50%;
+  
 }
 .img_izquierda img:hover{
   transform: rotate(30deg);
@@ -126,6 +127,11 @@ footer{
   display: flex;
   flex-flow: row wrap;
   color: black;
+}
+@media screen (max-width: 600px){
+	footer{
+		width: 100%;
+	}
 }
 p{
   text-align: justify;
